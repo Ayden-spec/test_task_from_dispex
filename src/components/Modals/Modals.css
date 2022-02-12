@@ -1,0 +1,136 @@
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 20px 20px 20px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+
+.Modal_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(129, 129, 129);
+}
+
+.Modal_header_img_back {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.Modal_header_img {
+    width: 50px;
+    height: 50px;
+}
+
+.Modal_header_text {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.margin_top {
+    margin-top: 10px;
+}
+
+.margin_top input{
+    background: transparent;
+    outline:  none;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px 0px 10px;
+    border: none;
+    width: 100%;
+}
+
+.title{
+    padding-left: 10px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.Modal_buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid;
+    border-top-color: rgb(129, 129, 129);
+    margin-top: 10px;
+}
+
+.add_client_button {
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(44, 44, 248);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin: 10px 15px 0px 0px;
+}
+
+.back_client_button {
+    cursor: pointer;
+    border: 1px solid;
+    border-color: rgb(70, 70, 70);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin: 10px 0px 0px 0px;
+}
+
+.add_client_menu_number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 10px;
+}
+
+.add_client_menu_number input{
+    background: transparent;
+    outline:  none;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px 0px 0px;
+    border: none;
+    width: 100%;
+}
+
+@media (max-width: 1101px) {
+    .Modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: auto;
+        bottom: auto;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        padding: 20px 20px 20px 20px;
+        width: 60%;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@media (max-width: 551px) {
+    .Modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: auto;
+        bottom: auto;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        padding: 20px 20px 20px 20px;
+        width: 90%;
+        background-color: rgb(255, 255, 255);
+    }
+}

@@ -1,0 +1,23 @@
+.input_container{
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.input {
+    background: transparent;
+    outline:  none;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+}

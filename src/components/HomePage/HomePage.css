@@ -1,0 +1,150 @@
+.HomePage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.adress_menu{
+    margin-top: 3%;
+    width: 90%;
+    align-self: center;
+}
+
+.adress_menu_title {
+    display: flex;
+    flex-direction: row;
+}
+
+.adress_menu_title_star {
+    font-size: 24px;
+    color: brown;
+}
+
+.adress_menu_title_ {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.adress_menu_inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.client_adress_and_add_client_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.client_menu {
+    align-self: center;
+    margin-top: 5%;
+    width: 90%;
+}
+
+.add_client{
+    margin-right: 5%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: rgb(158, 158, 158);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.clients_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 100%;
+}
+
+.clients_list_block {
+    padding: 20px 20px 20px 20px;
+    margin: 0px 1% 1% 1%;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.clients_list_block_logo {
+    width: 50px;
+    height: 50px;
+}
+
+.clients_list_buttons {
+    min-width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.clients_list_button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 48%;
+    margin-top: 5%;
+    background-color: rgb(185, 185, 185);
+    border: 1px solid;
+    border-color: #fff;
+    border-radius: 10px;
+}
+
+.client_list_button_img {
+    width: 30px;
+    height: 30px;
+}
+
+.clients_list_block_logo_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.clients_name{
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.clients_phone_number{
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(36, 172, 47);
+}
+
+.clients_email{
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(138, 138, 138);
+}
+
+.homepage_input{
+    width: 32.5%;
+}
+
+@media (max-width: 551px) {
+    .adress_menu_inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .homepage_input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

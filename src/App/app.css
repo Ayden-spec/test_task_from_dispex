@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Gilroy;
+    src: url('../assets/fonts/gilroy/Gilroy-Light.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy;
+    box-sizing: border-box;
+    color: rgb(88, 88, 88);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E6E6;
+}
